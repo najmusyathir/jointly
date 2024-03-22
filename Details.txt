@@ -1,0 +1,80 @@
+
+# Jointly: Revolutionize Your Productivity
+
+## !! Ultimate Self-Development App !!
+
+Description: This is an improvise TO-DO app which helps in monitoring daily routines and improve users productivity. This apps is more like a diaries which will save all the users progress either for their own self-development projects, gym, financial goals and many more. Despite of regular monitoring apps, this app allow the user to sync routines with the other user like a couple's goal which allow them to keep tracking their partner progress. The may plan on making an activities for movie night or join online cooking class together.
+Please note that this app is focusing more on improving someone daily routines, this app also provide some features like Pomodoro Timer, Weight monitoring etc. which all these techniques may help users to improve their productivity and time efficiency.
+What are you waiting for? Be the best version of yourself NOW.
+
+
+Main features:
+1. Monitor the activity from the calendars.
+2. Show all activities in list view.
+3. Share own activity calendars to public (like github)
+4. Can set to show only specific activity when sharing (Gym only / Work only).
+5. Set specific time frame to share activity.
+
+TO-DO features:
+#Note = // means the features is mandatory
+1. TO-DO can be Create, Read, Update, Delete.
+2. Completed TO-DO will set as Activity once it is finished. //
+3. Completed TO-DO may set as Complete, Extend, Delete after it reach the time limit.
+4. Completion Preference, "Instant Completion" and "Scheduled Completion". "Timer, 5 min, 15 min, 30 min, 1 hr, 2hr, 3hr, 4hr".
+
+Activity Details:
+1. Title //
+2. Description //
+3. Pictures
+4. Data & Time //
+5. Group = Financial, Health, Project, Others
+6. Privacy = Only Me, Circle, Public.
+7. Tag (users)
+
+TO-DO Details:
+1. Title  //
+2. Description //
+3. Pictures //
+4. Time & Date
+5. Group = Financial, Health, Project, Others
+6. Privacy = Only Me, Circle, Public.
+7. Completion Preference = "Instant Completion" and "Scheduled Completion".
+8. Tag
+
+User features:
+- One time connect with another users.
+- "Include" other users in TO-DO, so the To-DO will also appear on his/her TO-DO list.
+- "Include" other users with activities. (implement a bit late)
+
+- Can show his Activity list - icon > 3 unlisted list
+- Can show his TO-DO list > square checkbox with tick
+- Show calendar view of activities & TO-Do list
+
+- Classification between daily routine group (financial, health, project's progress, )
+- Share user's daily routines.
+
+Side-features:
+1. Pomodoro timer
+2. Financial graph
+3. BMI calculator, Weight graph
+4. ...
+
+Tech stacks:
+1. State management
+2. Localization.
+3. ...
+
+Pages:
+1. loginPage
+2. listPage:
+   - TO-Do list (default)
+   - Activity List
+3. calendarPage
+4. cratePage:
+    - TO-Do list (default)
+    - Activity List
+5. editPage:
+    - TO-Do list (default)
+    - Activity List
+
+6. userSettingPage
