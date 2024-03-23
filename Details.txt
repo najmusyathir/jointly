@@ -78,3 +78,9 @@ Pages:
     - Activity List
 
 6. userSettingPage
+
+Add dependencies:
+1. Provider
+2. http
+3. shared_preference
+4. table_calendar
