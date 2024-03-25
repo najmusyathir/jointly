@@ -62,7 +62,11 @@ Side-features:
 Tech stacks:
 1. State management
 2. Localization.
-3. ...
+3. installation and emulator setup
+4. state management
+5. localization
+6. firebase (BaaS)
+7. deployment
 
 Pages:
 1. loginPage
@@ -84,3 +88,5 @@ Add dependencies:
 2. http
 3. shared_preference
 4. table_calendar
+
+
