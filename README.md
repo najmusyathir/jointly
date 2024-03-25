@@ -1,7 +1,27 @@
 # Jointly: Revolutionize Your Productivity
+Ultimate Self-Development App🔥
 
-## !! Ultimate Self-Development App !!
+## Description:
 
-Description: This is an improvise TO-DO app which helps in monitoring daily routines and improve users productivity. This apps is more like a diaries which will save all the users progress either for their own self-development projects, gym, financial goals and many more. Despite of regular monitoring apps, this app allow the user to sync routines with the other user like a couple's goal which allow them to keep tracking their partner progress. The may plan on making an activities for movie night or join online cooking class together.
-Please note that this app is focusing more on improving someone daily routines, this app also provide some features like Pomodoro Timer, Weight monitoring etc. which all these techniques may help users to improve their productivity and time efficiency.
+This is an improvise TO-DO app which helps in monitoring daily routines to improve users productivity. This apps act as a diary which save the users' daily routines, workout progress, financial goals and anything that suits for this app.
+
+Despite of regular monitoring apps, this app allow the user to sync progress with the other user which helps in monitoring collaborative projects. They may use this app as a reminder for together's activity like movie nights or weekend family events.
+
 What are you waiting for? Be the best version of yourself NOW.
+## Features
+
+- Light/dark mode toggle
+- Cross platform
+- Pomodoro timer
+- Financial graph
+- BMI calculator
+- Weight graph
+
+P/S: Please note, the features of this app may change over time due to the complexity that arise during project development.
+
+
+
+## Authors
+
+- [@najmusyathir](https://www.github.com/najmusyathir)
+
