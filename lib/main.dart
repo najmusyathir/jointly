@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:jointly/pages/setting_page.dart';
-import 'package:jointly/pages/todo_list_page.dart';
 import 'package:jointly/pages/todo_details_page.dart';
 import 'package:jointly/pages/calendar_page.dart';
+import 'package:jointly/pages/list_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -62,7 +62,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: PageView(
         controller: _pageController,
         children: const <Widget>[
-          TodoListPage(),
+          ListPage(),
           CalendarPage(),
           SettingPage(),
         ],
