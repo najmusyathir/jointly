@@ -17,7 +17,7 @@ class TodoListPage extends StatelessWidget {
             children: <Widget>[
               Padding(padding: EdgeInsets.all(10)),
               Text(
-                "To-DO Page",
+                "To-Do Page",
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontWeight: FontWeight.w800,

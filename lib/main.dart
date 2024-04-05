@@ -3,6 +3,8 @@ import 'package:jointly/pages/setting_page.dart';
 import 'package:jointly/pages/todo_details_page.dart';
 import 'package:jointly/pages/calendar_page.dart';
 import 'package:jointly/pages/list_page.dart';
+import 'package:jointly/pages/login_page.dart';
+import 'package:jointly/pages/user_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -24,6 +26,9 @@ class MyApp extends StatelessWidget {
       routes: {
         '/todoDetailsPage': (context) => const ToDoDetailsPage(),
         '/calendarPage': (context) => const CalendarPage(),
+        '/loginPage': (context) => LoginPage(),
+        '/userPage': (context) => const UserPage(),
+        '/settingPage': (context) => const SettingPage(),
       },
     );
   }
@@ -53,24 +58,42 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        leading: const Icon(Icons.menu),
-        actions: const [Icon(Icons.logout)],
-      ),
+      appBar: AppBar(),
       body: PageView(
         controller: _pageController,
         children: const <Widget>[
           ListPage(),
           CalendarPage(),
-          SettingPage(),
+          UserPage(),
         ],
         onPageChanged: (index) {
           setState(() {
             _selectedIndex = index;
           });
         },
+      ),
+      drawer: Drawer(
+        child: ListView(
+          children: [
+            const DrawerHeader(
+                child: Text(
+              "Jointly",
+              style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
+            )),
+             ListTile(
+              title: const Text("Settings"),
+              onTap: () {
+                Navigator.pushNamed(context, '/settingPage');
+              },
+            ),
+            ListTile(
+              title: const Text("Account"),
+              onTap: () {
+                Navigator.pushNamed(context, '/loginPage');
+              },
+            ),
+          ],
+        ),
       ),
       bottomNavigationBar: BottomNavigationBar(
         onTap: _onItemTapped,
@@ -84,8 +107,8 @@ class _MyHomePageState extends State<MyHomePage> {
             label: 'Calendar',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.settings),
-            label: 'Settings',
+            icon: Icon(Icons.person),
+            label: 'User',
           )
         ],
       ),
